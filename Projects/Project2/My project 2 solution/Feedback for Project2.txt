@@ -1,0 +1,33 @@
+Feedback for Project2
+Score
+70 / 100
+Feedback Date
+Feb 19, 2024 8:15 PM
+
+Programming Style
+Comments at the beginning of each source file      	____/5
+Descriptive comment necessary to help the understanding of your program	____/5
+Use indentation/whitespace to make program easier to read.	____/5
+Test Cases (content and format)
+cool0.cl	__25__/35
+cool1.cl 	__8__/10
+cool2.cl 	__5__/10
+Instructor’s special1.cl	__7__/10
+Instructor’s special2.cl	____/10
+Insert identifier/literals into corresponding tables	____/10
+Penalty
+Compiler errors	-10
+TOTAL	__70__/100
+
+Important notes:
+•	Instructor preserves the right to deduct points from errors that are not listed above.
+
+Syntax errors caused by comments and whitespace before regular expressions.
+
+{TYPESYMBOL}  { yylval.symbol = idTable.add_string(yytext); return TYPEID;}
+{OBJECTSYMBOL}  { yylval.symbol = idTable.add_string(yytext); return OBJECTID;}
+
+Cannot recognize line comments
+
+Cannot recognize @
+Cannot recognize illegal tokens like $ # 

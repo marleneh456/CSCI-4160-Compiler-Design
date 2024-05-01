@@ -1,0 +1,33 @@
+Lexcial Analysis of the file cool2.cl
+     CLASS  1:  1
+    TYPEID  1:  7 Main
+         {  1: 12
+  OBJECTID  2:  5 main
+         (  2:  9
+         )  2: 10
+         :  2: 12
+    TYPEID  2: 14 SELF_TYPE
+         {  2: 24
+         (  3:  2
+ STR_CONST  3: 33 Tab\  escape
+ sequences.
+         ;  3: 34
+ STR_CONST  4: 27 Explicit ASCII codes .
+         ;  4: 28
+ STR_CONST  7: 48 A string that is broken over several lines.
+         ;  7: 50
+cool2.cl:8.45: \p illegal escape sequence
+                        "A string with a illegal escape seqeunce \p."
+                                                                 ^
+
+ STR_CONST  8: 48 A string with a illegal escape seqeunce \p.
+cool2.cl:9.4: Unterminated string constant
+                        "unclosed string
+                        ^
+
+ STR_CONST 10:  1 unclosed string
+         ) 10:  2
+         } 11:  5
+         ; 11:  6
+         } 12:  1
+         ; 12:  2

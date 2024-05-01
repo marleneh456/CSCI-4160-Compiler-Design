@@ -1,0 +1,63 @@
+Lexcial Analysis of the file cool1.cl
+     CLASS  2:  1
+    TYPEID  2:  7 Main
+  INHERITS  2: 12
+    TYPEID  2: 21 IO
+         {  2: 24
+  OBJECTID  3:  5 main
+         (  3:  9
+         )  3: 10
+         :  3: 12
+    TYPEID  3: 14 SELF_TYPE
+         {  3: 24
+         (  4:  2
+       LET  4:  3
+  OBJECTID  4:  7 c
+         :  4:  9
+    TYPEID  4: 11 Complex
+    ASSIGN  4: 19
+         (  4: 22
+       NEW  4: 23
+    TYPEID  4: 27 Complex
+         )  4: 34
+         .  4: 35
+  OBJECTID  4: 36 init
+         (  4: 40
+ INT_CONST  4: 41 1
+         ,  4: 42
+ INT_CONST  4: 44 1
+         )  4: 45
+        IN  4: 47
+         {  5:  6
+        IF  7: 10
+  OBJECTID  7: 13 c
+         .  7: 14
+  OBJECTID  7: 15 reflect_X
+         (  7: 24
+         )  7: 25
+         =  7: 27
+  OBJECTID  7: 29 c
+         .  7: 30
+  OBJECTID  7: 31 reflect_0
+         (  7: 40
+         )  7: 41
+      THEN  8: 10
+  OBJECTID  8: 15 out_string
+         (  8: 25
+ STR_CONST  8: 29 =)
+         )  8: 30
+      ELSE  9: 10
+  OBJECTID  9: 15 out_string
+         (  9: 25
+ STR_CONST  9: 29 =(
+         )  9: 30
+        FI 10: 10
+         } 17:  6
+         ) 18:  2
+         } 19:  5
+         ; 19:  6
+         } 20:  1
+         ; 20:  2
+cool1.cl:22.1: unclosed comments
+(* Finally, we have
+^
