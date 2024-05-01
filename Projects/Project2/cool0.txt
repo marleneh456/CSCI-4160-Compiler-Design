@@ -1,0 +1,200 @@
+Lexcial Analysis of the file cool0.cl
+     CLASS  1:  1
+    TYPEID  1:  7 Main
+  INHERITS  1: 12
+    TYPEID  1: 21 IO
+         {  1: 24
+  OBJECTID  2:  5 main
+         (  2:  9
+         )  2: 10
+         :  2: 12
+    TYPEID  2: 14 SELF_TYPE
+         {  2: 24
+         (  3:  2
+       LET  3:  3
+  OBJECTID  3:  7 c
+         :  3:  9
+    TYPEID  3: 11 Complex
+    ASSIGN  3: 19
+         (  3: 22
+       NEW  3: 23
+    TYPEID  3: 27 Complex
+         )  3: 34
+         .  3: 35
+  OBJECTID  3: 36 init
+         (  3: 40
+ INT_CONST  3: 41 1
+         ,  3: 42
+ INT_CONST  3: 44 1
+         )  3: 45
+        IN  3: 47
+        IF  4:  6
+  OBJECTID  4:  9 c
+         .  4: 10
+  OBJECTID  4: 11 reflect_X
+         (  4: 20
+         )  4: 21
+         .  4: 22
+  OBJECTID  4: 23 reflect_Y
+         (  4: 32
+         )  4: 33
+         =  4: 35
+  OBJECTID  4: 37 c
+         .  4: 38
+  OBJECTID  4: 39 reflect_0
+         (  4: 48
+         )  4: 49
+      THEN  5:  6
+  OBJECTID  5: 11 out_string
+         (  5: 21
+ STR_CONST  5: 27 =)
+
+         )  5: 28
+      ELSE  6:  6
+  OBJECTID  6: 11 out_string
+         (  6: 21
+ STR_CONST  6: 27 =(
+
+         )  6: 28
+        FI  7:  6
+         )  8:  2
+         }  9:  5
+         ;  9:  6
+         } 10:  1
+         ; 10:  2
+     CLASS 12:  1
+    TYPEID 12:  7 Complex
+  INHERITS 12: 15
+    TYPEID 12: 24 IO
+         { 12: 27
+  OBJECTID 13:  5 x
+         : 13:  7
+    TYPEID 13:  9 Int
+         ; 13: 12
+  OBJECTID 14:  5 y
+         : 14:  7
+    TYPEID 14:  9 Int
+         ; 14: 12
+  OBJECTID 16:  5 init
+         ( 16:  9
+  OBJECTID 16: 10 a
+         : 16: 12
+    TYPEID 16: 14 Int
+         , 16: 17
+  OBJECTID 16: 19 b
+         : 16: 21
+    TYPEID 16: 23 Int
+         ) 16: 26
+         : 16: 28
+    TYPEID 16: 30 Complex
+         { 16: 38
+         { 17:  2
+  OBJECTID 18:  6 x
+         = 18:  8
+  OBJECTID 18: 10 a
+         ; 18: 11
+  OBJECTID 19:  6 y
+         = 19:  8
+  OBJECTID 19: 10 b
+         ; 19: 11
+  OBJECTID 20:  6 self
+         ; 20: 10
+         } 21:  2
+         } 22:  5
+         ; 22:  6
+  OBJECTID 24:  5 print
+         ( 24: 10
+         ) 24: 11
+         : 24: 13
+    TYPEID 24: 15 Object
+         { 24: 22
+        IF 25:  2
+  OBJECTID 25:  5 y
+         = 25:  7
+ INT_CONST 25:  9 0
+      THEN 26:  2
+  OBJECTID 26:  7 out_int
+         ( 26: 14
+  OBJECTID 26: 15 x
+         ) 26: 16
+      ELSE 27:  2
+  OBJECTID 27:  7 out_int
+         ( 27: 14
+  OBJECTID 27: 15 x
+         ) 27: 16
+         . 27: 17
+  OBJECTID 27: 18 out_string
+         ( 27: 28
+ STR_CONST 27: 31 +
+         ) 27: 32
+         . 27: 33
+  OBJECTID 27: 34 out_int
+         ( 27: 41
+  OBJECTID 27: 42 y
+         ) 27: 43
+         . 27: 44
+  OBJECTID 27: 45 out_string
+         ( 27: 55
+ STR_CONST 27: 58 I
+         ) 27: 59
+        FI 28:  2
+         } 29:  5
+         ; 29:  6
+  OBJECTID 31:  5 reflect_0
+         ( 31: 14
+         ) 31: 15
+         : 31: 17
+    TYPEID 31: 19 Complex
+         { 31: 27
+         { 32:  2
+  OBJECTID 33:  6 x
+         = 33:  8
+         ~ 33: 10
+  OBJECTID 33: 11 x
+         ; 33: 12
+  OBJECTID 34:  6 y
+         = 34:  8
+         ~ 34: 10
+  OBJECTID 34: 11 y
+         ; 34: 12
+  OBJECTID 35:  6 self
+         ; 35: 10
+         } 36:  2
+         } 37:  5
+         ; 37:  6
+  OBJECTID 39:  5 reflect_X
+         ( 39: 14
+         ) 39: 15
+         : 39: 17
+    TYPEID 39: 19 Complex
+         { 39: 27
+         { 40:  2
+  OBJECTID 41:  6 y
+         = 41:  8
+         ~ 41: 10
+  OBJECTID 41: 11 y
+         ; 41: 12
+  OBJECTID 42:  6 self
+         ; 42: 10
+         } 43:  2
+         } 44:  5
+         ; 44:  6
+  OBJECTID 46:  5 reflect_Y
+         ( 46: 14
+         ) 46: 15
+         : 46: 17
+    TYPEID 46: 19 Complex
+         { 46: 27
+         { 47:  2
+  OBJECTID 48:  6 x
+         = 48:  8
+         ~ 48: 10
+  OBJECTID 48: 11 x
+         ; 48: 12
+  OBJECTID 49:  6 self
+         ; 49: 10
+         } 50:  2
+         } 51:  5
+         ; 51:  6
+         } 52:  1
+         ; 52:  2
