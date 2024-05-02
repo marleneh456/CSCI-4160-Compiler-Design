@@ -1,0 +1,106 @@
+Terminals unused in grammar
+
+   STR_CONST
+   TYPEID
+   OBJECTID
+   INT_CONST
+   BOOL_CONST
+   CLASS
+   ELSE
+   FI
+   IF
+   IN
+   INHERITS
+   LET
+   LOOP
+   POOL
+   THEN
+   WHILE
+   CASE
+   ESAC
+   OF
+   DARROW
+   NEW
+   ISVOID
+   ASSIGN
+   NOT
+   LE
+   LET_STMT
+   '-'
+   '+'
+   '*'
+   '/'
+
+
+Grammar
+
+    0 $accept: program $end
+
+    1 program: /* empty */
+
+
+Terminals, with rules where they appear
+
+$end (0) 0
+'*' (42)
+'+' (43)
+'-' (45)
+'/' (47)
+error (256)
+STR_CONST (258)
+TYPEID (259)
+OBJECTID (260)
+INT_CONST (261)
+BOOL_CONST (262)
+CLASS (263)
+ELSE (264)
+FI (265)
+IF (266)
+IN (267)
+INHERITS (268)
+LET (269)
+LOOP (270)
+POOL (271)
+THEN (272)
+WHILE (273)
+CASE (274)
+ESAC (275)
+OF (276)
+DARROW (277)
+NEW (278)
+ISVOID (279)
+ASSIGN (280)
+NOT (281)
+LE (282)
+LET_STMT (283)
+
+
+Nonterminals, with rules where they appear
+
+$accept (33)
+    on left: 0
+program (34)
+    on left: 1, on right: 0
+
+
+State 0
+
+    0 $accept: . program $end
+
+    $default  reduce using rule 1 (program)
+
+    program  go to state 1
+
+
+State 1
+
+    0 $accept: program . $end
+
+    $end  shift, and go to state 2
+
+
+State 2
+
+    0 $accept: program $end .
+
+    $default  accept
