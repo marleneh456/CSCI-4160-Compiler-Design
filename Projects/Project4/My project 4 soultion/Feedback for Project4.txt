@@ -1,0 +1,30 @@
+Feedback for Project4
+Score
+80 / 100
+Feedback Date
+Mar 24, 2024 10:23 AM
+
+Programming Style
+Comments at the beginning of each source file      	____/6
+Use indentation/whitespace to make program easier to read.	____/4
+Functionality
+Example.cl	____/60
+Instructor test case 1 	__0__/20
+Instructor test case 2	____/10
+Penalty
+Syntax errors	Up to 70 points
+TOTAL	_80__/100
+
+
+Important notes:
+•	Instructor preserves the right to deduct points from errors that are not listed above.
+
+Missing the following productions and actions:
+case_list : simple_case {$$ = single_list($1); }
+        | simple_case case_list {$$ = pair_list($1, $2);}
+
+optional_initialization:
+    /* empty */
+{ $$ = new NoExp();   should be $$ = nullptr;}
+
+Missing productions for method invocations
