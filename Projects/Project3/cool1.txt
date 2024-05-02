@@ -1,0 +1,19 @@
+cool1.cl:4.2: syntax error
+        y : String <- "something";
+        ^
+
+cool1.cl:15.7: syntax error
+                g(x y);
+                    ^
+
+cool1.cl:16.10: syntax error
+                g(x,y, );
+                       ^
+
+cool1.cl:18.9: syntax error
+                x < y < z;
+                      ^
+cool1.cl:19.9: syntax error
+                x = y = z;
+                      ^
+Parsing successful!
