@@ -1,0 +1,24 @@
+Feedback for Project6
+Score
+90 / 100
+Feedback Date
+Apr 19, 2024 8:53 AM
+
+Programming Style
+Comments at the beginning of each source file      	____/5
+Use indentation/whitespace to make program easier to read.	____/5
+Comments to help reader understand the program	____/5
+Functionality
+bad.cl	____/55
+Instructor test case 1 	____/20
+Instructor test case 2	____/10
+Penalty
+Compile errors	Up to -70
+TOTAL	__90__/100
+
+
+Important notes:
+•	Instructor preserves the right to deduct points from errors that are not listed above.
+
+
+Wrong implementation of OpExp::tc_student   -10
