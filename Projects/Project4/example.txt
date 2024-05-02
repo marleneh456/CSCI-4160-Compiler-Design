@@ -1,0 +1,164 @@
+bool
+Parsing successful!
+
+Program
+    Class: [Main: IO]
+        Method: [main]
+          SELF_TYPE
+          LetExp
+            c
+            Complex
+            CallExp
+              NewExp
+                Complex
+              init
+                int_const
+                  1
+                int_const
+                  1
+            IfExp
+              OpExp
+                CallExp
+                  CallExp
+                    ObjectExp
+                      c
+                    reflect_X
+                  reflect_Y
+                =
+                CallExp
+                  ObjectExp
+                    c
+                  reflect_0
+              CallExp
+                ObjectExp
+                  self
+                out_string
+                  string_const
+                    =)
+
+              CallExp
+                ObjectExp
+                  self
+                out_string
+                  string_const
+                    =(
+
+    Class: [Complex: IO]
+        Attr: [x]
+          Int
+        Attr: [y]
+          Int
+        Method: [init]
+            Formal
+              a
+              Int
+            Formal
+              b
+              Int
+          Complex
+          BlockExp
+              OpExp
+                ObjectExp
+                  x
+                =
+                ObjectExp
+                  a
+              OpExp
+                ObjectExp
+                  y
+                =
+                ObjectExp
+                  b
+              ObjectExp
+                self
+        Method: [print]
+          Object
+          IfExp
+            OpExp
+              ObjectExp
+                y
+              =
+              int_const
+                0
+            CallExp
+              ObjectExp
+                self
+              out_int
+                ObjectExp
+                  x
+            CallExp
+              CallExp
+                CallExp
+                  CallExp
+                    ObjectExp
+                      self
+                    out_int
+                      ObjectExp
+                        x
+                  out_string
+                    string_const
+                      +
+                out_int
+                  ObjectExp
+                    y
+              out_string
+                string_const
+                  I
+        Method: [reflect_0]
+          Complex
+          BlockExp
+              OpExp
+                ObjectExp
+                  x
+                =
+                OpExp
+                  int_const
+                    0
+                  -
+                  ObjectExp
+                    x
+              OpExp
+                ObjectExp
+                  y
+                =
+                OpExp
+                  int_const
+                    0
+                  -
+                  ObjectExp
+                    y
+              ObjectExp
+                self
+        Method: [reflect_X]
+          Complex
+          BlockExp
+              OpExp
+                ObjectExp
+                  y
+                =
+                OpExp
+                  int_const
+                    0
+                  -
+                  ObjectExp
+                    y
+              ObjectExp
+                self
+        Method: [reflect_Y]
+          Complex
+          BlockExp
+              OpExp
+                ObjectExp
+                  x
+                =
+                OpExp
+                  int_const
+                    0
+                  -
+                  ObjectExp
+                    x
+              ObjectExp
+                self
+
+
+Press any key to continue . . .
